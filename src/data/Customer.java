@@ -23,4 +23,12 @@ public class Customer {
         this.email = email;
         this.premiumMembership = premiumMembership;
     }
+
+    public void displayCustomerInfo(){
+        System.out.println("name = " + name);
+        System.out.println("address = " + address);
+        System.out.println("mobileNo = " + mobileNo);
+        System.out.println("email = " + email);
+        System.out.println("premiumMembership = " + premiumMembership);
+    }
 }
